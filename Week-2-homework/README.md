@@ -1,6 +1,5 @@
 # toni-portfolio
-This is my first website and it showcases my html and css skills that I have learnt so far.
-I have included an About page, a portfolio page and a contact page.
+I am now going to make this website mobile responsive using bootstrap. I will add a nav bar too using bootstrap
 
 # description
 The About page is a bio of my film work over the years and the portfolio page show photos of me on various adventures. Please use the contact page to get in touch. 
