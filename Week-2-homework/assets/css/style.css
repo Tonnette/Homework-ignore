@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .myNav {
     background-color: white;
 }
@@ -55,4 +59,14 @@ p {
 body {
     margin: 0;
     background: url(../images/triangle-mosaic.png);
+}
+
+.myImage {
+    width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .myImage {
+        width: 400px;
+    }
 }
