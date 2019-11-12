@@ -1,0 +1,58 @@
+.myNav {
+    background-color: white;
+}
+
+.myName {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background-color: #4aaaa5;
+    height: 87px;
+    padding: 10px;
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 700;
+    padding-top: 25px;
+}
+
+.myContainer {
+    border: 1px solid lightgrey;
+    height: relative;
+    background-color: white;
+    margin: 25px;
+    padding: 20px;
+}
+
+.myRow-1 {
+    height: 100px;
+}
+
+.my-col-1 {
+    border-bottom: 3px solid lightgrey;
+    margin: 20px;
+}
+
+h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    text-align: left;
+    font-size: 27px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.myRow-2 {
+    height: 500px;
+}
+
+p {
+    line-height: 1.5;
+    color: grey;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: url(../images/triangle-mosaic.png);
+}
