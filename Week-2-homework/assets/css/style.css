@@ -61,12 +61,20 @@ body {
     background: url(../images/triangle-mosaic.png);
 }
 
-.myImage {
-    width: 200px;
+@media screen and (min-width: 641px) and (max-width: 767px) {
+    .myImage {
+        width: 200px;
+    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 959px) {
     .myImage {
-        width: 400px;
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .myImage {
+        width: 200px;
     }
 }
