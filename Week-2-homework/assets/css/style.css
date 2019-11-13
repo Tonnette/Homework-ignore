@@ -12,21 +12,28 @@
     padding-right: 10px;
 }
 
+.myContact {
+    font-size: 16px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 10px;
+}
+
 .myCard {
     border: none;
 }
 
-.myName {
+.toniCard {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     background-color: #4aaaa5;
-    height: 87px;
-    padding: 10px;
+    height: 70px;
+    padding-bottom: 10px;
     margin: 0;
     color: white;
     text-align: center;
     font-size: 27px;
     font-weight: 700;
-    padding-top: 25px;
+    border: none;
 }
 
 .myContainer {
@@ -73,25 +80,17 @@ p {
 body {
     margin: 0;
     background: url(../images/triangle-mosaic.png);
+    padding: 0px;
 }
 
-@media screen and (min-width: 2px) and (max-width: 640px) {
+@media screen and (min-width: 50px) and (max-width: 767px) {
     .myImage {
         width: 100%;
     }
     .myContainer {
-        height: 1100px;
-    }
-}
-
-@media screen and (min-width: 641px) and (max-width: 767px) {
-    .myImage {
-        width: 60%;
-    }
-    .myContainer {
-        height: 1000px;
+        height: 1150px;
         margin-left: 0px;
-        margin-top: 80px;
+        margin-top: 130px;
     }
     .myCard {
         position: absolute;
@@ -99,7 +98,20 @@ body {
         transform: translatex(-50%);
         padding-left: 250px;
         padding-right: 250px;
-        margin-top: 30px;
+        margin-top: 70px;
+    }
+    .toniCard {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+        padding: 35px 305px 0px 305px;
+        margin: 0px;
+        height: 120px;
+    }
+    .my-col-1 {
+        border-bottom: 2px solid lightgrey;
+        margin: 20px;
+        max-width: 85%;
     }
 }
 
