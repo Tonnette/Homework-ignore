@@ -6,6 +6,21 @@
     background-color: white;
 }
 
+@media screen and (min-width: 641px) and (max-width: 767px) {
+    .navbar-nav {
+        float: none;
+        margin: 0 auto;
+        display: inline-block;
+        text-align: center;
+        padding: 10px;
+        font-size: 35px;
+    }
+    .navbar-nav>li {
+        display: inline-block;
+        float: none;
+    }
+}
+
 .myName {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     background-color: #4aaaa5;
