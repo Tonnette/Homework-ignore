@@ -56,38 +56,60 @@
 
                 </div>
 
+                <form id="contact-form" method="post" action="contact.php" role="form">
 
-                <div class="message">
+                    <div class="messages"></div>
 
-                    <form action="#" target="_blank">
-                        Name <br>
-                        <input type="text" class="area" name="name">
-                        <br>
-                        <br> Email <br>
-                        <input type="text" class="area" name="email">
-                        <br>
-                        <br> Message <br>
-                        <textarea name="message"></textarea>
-                        <br><br>
-                        <input type="submit" class="form-control submit myButton" value="Submit">
-                    </form>
+                    <div class="controls">
 
-                </div>
+                        <div class="row">
+                            <div class="col-sm-11">
+                                <div class="form-group">
+                                    <label for="form_name">Name</label>
+                                    <input id="form_name" type="text" name="name" class="form-control" required="required" data-error="Firstname is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-11">
+                                <div class="form-group">
+                                    <label for="form_email">Email</label>
+                                    <input id="form_email" type="email" name="email" class="form-control" required="required" data-error="Valid email is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-11">
+                                <div class="form-group">
+                                    <label for="form_message">Message</label>
+                                    <textarea id="form_message" name="message" class="form-control" rows="8" required="required" data-error="Please, leave us a message."></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="submit" class="btn btn-success btn-send" value="Send message">
+                            </div>
+                        </div>
+                    </div>
 
+                </form>
             </div>
+        </div>
 
-            <!-- Footer -->
-            <footer class="page-footer font-small blue pt-4">
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-4">
 
-                <!-- Footer Links -->
+        <!-- Footer Links -->
 
-                <!-- Copyright -->
-                <div class="footer-copyright text-center py-3 myFooter">Copyright ©
-                </div>
-                <!-- Copyright -->
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 myFooter">Copyright ©</div>
+        <!-- Copyright -->
 
-            </footer>
-            <!-- Footer -->
+    </footer>
+    <!-- Footer -->
 </body>
 
 </html>
