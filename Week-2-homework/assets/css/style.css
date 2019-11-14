@@ -67,6 +67,11 @@
     background-color: white;
 }
 
+.lastPageContainer {
+    border: 1px solid lightgrey;
+    background-color: white;
+}
+
 .myRow-1 {
     height: 100px;
 }
@@ -115,6 +120,12 @@ body {
     }
     .myContainer {
         height: 1050px;
+        margin-left: 0px;
+        margin-top: 100px;
+        margin-bottom: 25px;
+    }
+    .lastPageContainer {
+        height: 600px;
         margin-left: 0px;
         margin-top: 100px;
         margin-bottom: 25px;
@@ -170,6 +181,12 @@ body {
         margin-left: 0px;
         margin-top: 30px;
     }
+    .lastPageContainer {
+        height: 700px;
+        margin-right: 30px;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
     .toniCard {
         position: absolute;
         margin-left: 25px;
@@ -201,6 +218,13 @@ body {
     }
     .myContainer {
         height: 800px;
+        width: 80%;
+        margin-right: 250px;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .lastPageContainer {
+        height: 600px;
         width: 80%;
         margin-right: 250px;
         margin-left: 0px;

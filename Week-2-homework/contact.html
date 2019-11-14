@@ -5,72 +5,89 @@
 <head>
     <meta charset="UTF-8">
     <title>Toni's Portfolio</title>
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 </head>
 
 <header>
-    <div class="topBox">
+    <div class="myTopCard">
+        <nav class="navbar navbar-expand-sm sticky-top ">
 
-        <div class="top-box-content">
-
-            <a href="index.html">
-                <h1>
+            <a class="navbar-brand"></a>
+            <div class="card toniCard">
+                <div class="card-body">
                     Toni Stanford
-                </h1>
-            </a>
-            <div style="float: right;">
-                <div class="menu-buttons button">
-                    <a href="index.html">About</a>
-                </div>
-
-
-                <div class="menu-buttons portfolio">
-                    <a href="portfolio.html">Portfolio</a>
-                </div>
-
-                <div class="menu-buttons contact">
-                    <a href="contact.html">Contact</a>
                 </div>
             </div>
-        </div>
 
+            <div class="collapse-navbar-collapse ml-auto">
+                <div class="card myCard">
+                    <div class="card-body">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link myNav">About</a></li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link myNav">Portfolio</a></li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link myContact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
     </div>
+    </nav>
+
 
 </header>
 
 <body>
-    <div class="largeWhiteBox">
-        <div class="aboutMe">
-            <h2>Contact</h2>
-        </div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="container lastPageContainer">
+                <div class="row myRow-1">
+                    <div class="col-md-10 col-sm-12 my-col-1">
+                        <h2>Contact</h2>
+                    </div>
+
+                </div>
 
 
-        <div class="message">
+                <div class="message">
 
-            <form action="#" target="_blank">
-                Name <br>
-                <input type="text" class="area" name="name">
-                <br>
-                <br> Email <br>
-                <input type="text" class="area" name="email">
-                <br>
-                <br> Message <br>
-                <textarea name="message"></textarea>
-                <br><br>
-                <input type="submit" class="form-control submit myButton" value="Submit">
-            </form>
+                    <form action="#" target="_blank">
+                        Name <br>
+                        <input type="text" class="area" name="name">
+                        <br>
+                        <br> Email <br>
+                        <input type="text" class="area" name="email">
+                        <br>
+                        <br> Message <br>
+                        <textarea name="message"></textarea>
+                        <br><br>
+                        <input type="submit" class="form-control submit myButton" value="Submit">
+                    </form>
 
-        </div>
+                </div>
 
-    </div>
+            </div>
 
-    <footer>
-        Copyright &copy;
-    </footer>
+            <!-- Footer -->
+            <footer class="page-footer font-small blue pt-4">
+
+                <!-- Footer Links -->
+
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3 myFooter">Copyright ©
+                </div>
+                <!-- Copyright -->
+
+            </footer>
+            <!-- Footer -->
 </body>
 
 </html>
