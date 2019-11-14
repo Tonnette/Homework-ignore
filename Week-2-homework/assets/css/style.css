@@ -82,7 +82,7 @@ h2 {
     text-align: left;
     font-size: 27px;
     font-weight: 700;
-    margin: 0;
+    margin-bottom: 10px;
     padding: 0;
 }
 
@@ -114,9 +114,10 @@ body {
         width: 100%;
     }
     .myContainer {
-        height: 1150px;
+        height: 1050px;
         margin-left: 0px;
         margin-top: 100px;
+        margin-bottom: 25px;
     }
     .myCard {
         position: absolute;
@@ -141,6 +142,22 @@ body {
         margin: 20px;
         max-width: 85%;
     }
+    .photo {
+        width: 310px;
+        margin-left: 80px;
+        margin-bottom: 20px;
+    }
+    .photoOnSet {
+        width: 310px;
+        margin-left: 80px;
+        margin-bottom: 20px;
+    }
+    .photoJacket {
+        display: none;
+    }
+    .photoSunset {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 979px) {
@@ -148,7 +165,7 @@ body {
         width: 50%;
     }
     .myContainer {
-        height: 800px;
+        height: 900px;
         margin-right: 30px;
         margin-left: 0px;
         margin-top: 30px;
@@ -158,6 +175,24 @@ body {
         margin-left: 25px;
         padding: 0;
     }
+    .photo {
+        width: 250px;
+        margin-left: 25px;
+        padding-bottom: 10px;
+    }
+    .photoOnSet {
+        width: 250px;
+        padding-bottom: 10px;
+    }
+    .photoJacket {
+        width: 250px;
+        padding-bottom: 10px;
+    }
+    .photoSunset {
+        width: 250px;
+        margin-left: 25px;
+        padding-bottom: 10px;
+    }
 }
 
 @media screen and (min-width: 980px) and (max-width: 1500px) {
@@ -165,7 +200,8 @@ body {
         width: 50%;
     }
     .myContainer {
-        height: 850px;
+        height: 800px;
+        width: 80%;
         margin-right: 250px;
         margin-left: 0px;
         margin-top: 30px;
@@ -174,6 +210,24 @@ body {
         position: absolute;
         margin-left: 50px;
         padding: 0;
+    }
+    .photo {
+        width: 200px;
+        margin-left: 25px;
+        padding-bottom: 10px;
+    }
+    .photoOnSet {
+        width: 200px;
+        padding-bottom: 10px;
+    }
+    .photoJacket {
+        width: 200px;
+        padding-bottom: 10px;
+    }
+    .photoSunset {
+        width: 200px;
+        margin-left: 25px;
+        padding-bottom: 10px;
     }
 }
 
